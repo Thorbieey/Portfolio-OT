@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #00ffff;
-    --secondary-color: #142727;
+    --primary-color: #142727;
+    --secondary-color: #00ffff;
 
 }
 
@@ -9,10 +9,26 @@ body {
 }
 
 header{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     display: flex;
 }
 
 ul li{
     display: inline-block;
+}
+
+.name{
+    background-color: var(--secondary-color);
+    width: 25%;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
 }
