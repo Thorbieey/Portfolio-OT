@@ -1,8 +1,18 @@
 :root {
     --primary-color: #00ffff;
+    --secondary-color: #142727;
 
 }
 
 body {
     background-color: #fff;
+}
+
+header{
+    background-color: var(--secondary-color);
+    display: flex;
+}
+
+ul li{
+    display: inline-block;
 }
