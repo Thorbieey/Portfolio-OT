@@ -32,3 +32,10 @@ nav {
     justify-content: flex-end;
     padding-right: 5%;
 }
+
+.nav-items a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 5px;
+}
