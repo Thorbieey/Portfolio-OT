@@ -39,3 +39,12 @@ nav {
     border-bottom: 2px solid var(--secondary-color);
     padding: 5px;
 }
+
+.hero-banner{
+    background-image: linear-gradient(var(--secondary-color), var(--secondary-color)),
+    url(../images/02-hero-bg.jpg);
+    background-blend-mode: saturation;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
