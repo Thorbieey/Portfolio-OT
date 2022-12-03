@@ -61,7 +61,12 @@ nav {
 .page-wrapper{
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 10% 75%;
+    justify-content: center;
+}
+
+.page-section{
+    margin: 20px;
 }
 
 .work-port-area {
