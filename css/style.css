@@ -17,16 +17,6 @@ ul li{
     display: inline-block;
 }
 
-h3{
-    /* background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-    cursor: pointer;
-    display: grid;
-    align-content: end; */
-}
-
 .name{
     background-color: var(--secondary-color);
     width: 25%;
