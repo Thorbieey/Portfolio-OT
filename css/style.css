@@ -60,7 +60,48 @@ nav {
 
 .page-wrapper{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
     grid-template-columns: 25% 75%;
+}
+
+.work-port-area {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border: 5px solid var(--secondary-color);
+}
+
+#work-portfolio{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "portfolio-1 portfolio-1"
+    "portfolio-1 portfolio-1"
+    "portfolio-2 portfolio-3"
+    "portfolio-4 portfolio-5";
+}
+
+#portfolio-1{
+    grid-area: portfolio-1;
+    background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#portfolio-2{
+    grid-area: portfolio-2;
+    background-image: url("../images/02-portfolio-2.jpg");
+}
+#portfolio-3{
+    grid-area: portfolio-3;
+    background-image: url("../images/02-portfolio-3.jpg");
+}
+#portfolio-4{
+    grid-area: portfolio-4;
+    background-image: url("../images/02-portfolio-4.jpg");
+}
+#portfolio-5{
+    grid-area: portfolio-5;
+    background-image: url("../images/02-run-buddy.jpg");
 }
 
