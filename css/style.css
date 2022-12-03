@@ -57,3 +57,10 @@ nav {
    background-color: var(--secondary-color);
    padding-right: 5px;
 }
+
+.page-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 25% 75%;
+}
+
