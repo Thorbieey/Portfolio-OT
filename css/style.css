@@ -61,12 +61,26 @@ nav {
 .page-wrapper{
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-template-columns: 10% 75%;
+    grid-template-columns: 25% 75%;
     justify-content: center;
 }
 
 .page-section{
     margin: 20px;
+    
+}
+
+.about,
+.work,
+.contact{
+    border-right: 3px solid var(--primary-color);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.page-section h2{
+    font-size: 2em;
 }
 
 .work-port-area {
