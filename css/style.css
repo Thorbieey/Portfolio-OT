@@ -85,6 +85,11 @@ nav {
     font-size: 2em;
 }
 
+/* ABOUT Section */
+.about-text{
+    margin-bottom: 20px;
+}
+
 /* WORK Section */
 .work-port-area {
     background-position: center;
