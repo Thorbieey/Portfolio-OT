@@ -44,7 +44,7 @@ nav {
 .hero-banner{
     background-image: linear-gradient(var(--secondary-color), var(--secondary-color)),
     url(../images/02-hero-bg.jpg);
-    background-blend-mode: saturation;
+    background-blend-mode: overlay;
     height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,6 +88,7 @@ nav {
 /* ABOUT Section */
 .about-text{
     margin-bottom: 20px;
+    color: var(--primary-color);
 }
 
 /* WORK Section */
@@ -102,6 +103,7 @@ nav {
     align-items: flex-end;
     justify-content: flex-start;
     text-decoration: none;
+    color: var(--primary-color);
 }
 
 .work-port-area div{
@@ -128,6 +130,7 @@ nav {
 #portfolio-1{
     grid-area: portfolio-1;
     background-image: url("../images/02-portfolio-1.jpg");
+    background-blend-mode: color;
 }
 
 #portfolio-2{
