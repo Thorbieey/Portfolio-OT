@@ -1,7 +1,7 @@
 :root {
     --primary-color: #142727;
     --secondary-color: #00ffff;
-
+    --main-text-color: #17136da1;
 }
 
 body {
@@ -42,9 +42,10 @@ nav {
 }
 
 .hero-banner{
-    background-image: linear-gradient(var(--secondary-color), var(--secondary-color)),
+    background-image: 
+    linear-gradient(var(--main-text-color), var(--main-text-color)),
     url(../images/02-hero-bg.jpg);
-    background-blend-mode: overlay;
+    background-blend-mode: saturation;
     height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,6 +66,7 @@ nav {
     grid-template-rows: auto auto auto;
     grid-template-columns: 25% 70%;
     justify-content: center;
+    color: var(--main-text-color);
 }
 
 .page-section{
@@ -88,7 +90,6 @@ nav {
 /* ABOUT Section */
 .about-text{
     margin-bottom: 20px;
-    color: var(--primary-color);
 }
 
 /* WORK Section */
@@ -163,7 +164,7 @@ nav {
 
 .contact-options a{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--main-text-color);
     border-bottom: 3px solid var(--primary-color);
     padding: 0px 5px;
     font-size: 20px;
