@@ -41,23 +41,32 @@ nav {
     padding: 5px;
 }
 
+/* Hero Section */
+
 .hero-banner{
     background-image: 
     linear-gradient(var(--tertiary-color), var(--tertiary-color)),
     url(../images/02-hero-bg.jpg);
     background-blend-mode: saturation;
-    height: 150px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
-    padding: 15px 50px;
+    justify-content: space-between;
+    padding: 0% 4.5% 3% 0%;
 }
 
 .hero-text{
    background-color: var(--secondary-color);
    padding-right: 5px;
+}
+
+.profile-picture{
+    height: 90%;
+    border: 3px solid var(--tertiary-color);
+    border-radius: 50%;
+    padding-left: 5px;
 }
 
 /* Main */
