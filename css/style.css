@@ -8,22 +8,16 @@ body {
     background-color: #fff;
     padding-right: 5px;
 }
-/* HEADER Section */
+
+/* Main logo/Nav Section */
+
 header{
     background-color: var(--primary-color);
     display: flex;
 }
 
-.nav-items{
-    padding: 0%;
-}
-
-.nav-items li{
-    display: inline-block;
-    
-}
-
 .name{
+    /* main logo */
     background-color: var(--secondary-color);
     width: 25%;
     margin: 5px 0px;
@@ -39,11 +33,18 @@ nav {
     padding-right: 5%;
 }
 
+.nav-items{
+    padding: 0px;
+}
+
+.nav-items li{
+    display: inline-block;   
+}
+
 .nav-items a{
     text-decoration: none;
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
-    /* padding: 5px; */
 }
 
 /* HERO Section */
@@ -52,7 +53,7 @@ nav {
     background-image: 
     linear-gradient(var(--tertiary-color), var(--tertiary-color)),
     url(../images/02-hero-bg.jpg);
-    background-blend-mode: saturation;
+    background-blend-mode: saturation; /*blend background image with tetiary color*/
     height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,11 +63,6 @@ nav {
     padding: 0% 4.5% 3% 0%;
 }
 
-.hero-text{
-   background-color: var(--secondary-color);
-   padding-right: 5px;
-}
-
 .profile-picture{
     height: 90%;
     border: 3px solid var(--tertiary-color);
@@ -74,8 +70,14 @@ nav {
     padding-left: 5px;
 }
 
+.hero-text{
+   background-color: var(--secondary-color);
+   padding-right: 5px;
+}
+
 /* MAIN Section */
 .page-wrapper{
+    /* main grid for about, work and contact sectio */
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: 25% 70%;
@@ -84,8 +86,7 @@ nav {
 }
 
 .page-section{
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 .about,
@@ -133,6 +134,7 @@ nav {
 }
 
 #work-portfolio{
+    /* grid for portfolios in the work section */
     display: grid;
     grid-template-rows: 200px 200px 200px 200px;
     grid-template-columns: 1fr 1fr;
@@ -166,8 +168,6 @@ nav {
     background-image: url("../images/02-run-buddy.jpg");
 }
 
-
-
 /* Contact */
 
 .contact-options{
@@ -197,7 +197,6 @@ nav {
         flex-direction: column;
     }
     .name{
-        /* background-color: var(--secondary-color); */
         width: fit-content; 
         padding-left: 20px;
     }
